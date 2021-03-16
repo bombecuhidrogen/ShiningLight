@@ -1,0 +1,151 @@
+body{
+    margin:0px;
+    font-family: garamond;
+}
+.white{
+    color:#6187CB;
+    background-color: #F8F7F2;
+    margin: 0px;
+    padding: 1em 0em;
+}
+}
+.form{
+    width: 60%;
+}
+h2.description{
+    text-align: left;
+    font-size: 3em ;
+    padding: 0.3em;
+    color:#1F271B;
+    border-bottom:solid #CAC4CE 0.2em;
+}
+form.input{
+    width:90%;
+    padding: 0% 5%;
+}
+p.name{
+    text-align: left;
+    font-size: 1.7em ;
+    color:#1F271B;
+}
+input.input-field{
+    width:100%;
+    font-size: 1.4em;
+    background-color: #CAC4CE;
+    border:#6A6A6A solid;
+}
+button.submit-btn{
+    width: 30%;
+    align-self:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin:5% 35%;
+    padding: 3%;
+    background-color: #6187CB;
+    color: #FEEEEB;
+    font-size: 1.4em;
+    border-radius: 15%;
+
+}
+
+.gray{
+    color:#F8F7F2;
+    background-color: #929292;
+    margin: 0px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h1.white{
+    text-align: center;
+    padding: 0.5em;
+    font-size: 4em;
+}
+div.caseta{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+img#logo{
+    width:35%;
+    height: auto;
+    padding:3%;
+    
+}
+h2.gray{
+    text-align: right;
+    font-size: 2.3em ;
+    padding: 0.3em;
+    padding-left: 40%;
+    
+}
+p.gray{
+    text-align: right;
+    padding: 0.2em;
+    font-size: 2em ;
+    padding-left: 20%;
+}
+img.gray{
+    width:40%;
+    height: auto;
+    margin:0px;
+    padding: 3%;
+    opacity: 0.5;
+
+}
+h2.review{
+    font-size: 2.1em;
+    text-align: center;
+    margin: 0%;
+    padding: .2em;
+}
+h1.review{
+    font-size: 3.9em;
+    text-align: center;
+    margin: 0%;
+    padding: .2em;
+
+}
+ul.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 1em 0em;
+}
+li.reviews{
+    width: 200px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+img.reviews{
+    width: 200px;
+    height: auto;
+    clear:both;
+    justify-self: baseline;
+    align-self: center;
+
+}
+h2#seeme{
+    text-decoration: underline;
+}
+footer{
+    background-color: #D6E9EB;
+    display:flex;
+    justify-content:center;
+    font-family: Garamond;   
+}
+
+ul.foot{
+    list-style-type: none;
+    margin:1% 10%;
+    
+    
+}
+li.foot{
+    font-size: 1.3em;
+}
+h2.foot{
+    margin:.2em 0em;
+}

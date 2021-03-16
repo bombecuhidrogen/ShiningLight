@@ -1,0 +1,126 @@
+body{
+    background-color:#EAECE9;
+    margin: 0px;
+}
+header{
+    width:100%;
+}
+nav{
+    width:100%;
+    
+}
+ul.menu{
+    
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    list-style-type: none;
+    padding: 0px 40px;
+    
+
+    
+}
+li.menu{
+    width:auto;
+}
+
+img#logo{
+    width:17%;
+    
+}
+
+a.menu{
+    font-size: 2em;
+    font-family: Garamond;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1F271B;
+    display: block;
+    border:solid #AED3D6;
+    border-radius: 15%;
+    padding: 0.25em 1em;
+    text-align: center;
+}
+a:hover.menu{
+    color:#EAECE9 ;
+    background-color:#1F271B;
+    
+}
+
+
+main{
+    width: 76%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+    font-family: Garamond bold;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+}
+.form{
+    width: 60%;
+}
+h2.description{
+    text-align: left;
+    font-size: 3em ;
+    padding: 0.3em;
+    color:#1F271B;
+    border-bottom:solid #CAC4CE 0.2em;
+}
+form.input{
+    width:90%;
+    padding: 0% 5%;
+}
+p.name{
+    text-align: left;
+    font-size: 1.7em ;
+    color:#1F271B;
+}
+input.input-field{
+    width:100%;
+    font-size: 1.4em;
+    background-color: #CAC4CE;
+    border:#6A6A6A solid;
+}
+button.submit-btn{
+    width: 30%;
+    align-self:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin:5% 35%;
+    padding: 3%;
+    background-color: #6187CB;
+    color: #FEEEEB;
+    font-size: 1.4em;
+    border-radius: 15%;
+
+}
+p#note{
+    color: #1F271B;
+    font-size: 1.6em;
+    text-align: center;
+}
+footer{
+    background-color: #D6E9EB;
+    display:flex;
+    justify-content:center;
+    font-family: Garamond;   
+}
+
+ul.foot{
+    list-style-type: none;
+    margin:1% 10%;
+    
+    
+}
+li.foot{
+    font-size: 1.3em;
+}
+h2.foot{
+    margin:.2em 0em;
+}
